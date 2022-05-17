@@ -1,38 +1,65 @@
-.App {
+body {
+  padding: 30px 0;
+  background-color: rgb(238, 203, 203);
+}
+.contact {
+  display: flex;
+  width: 1100px;
+  /* margin: 20px auto; */
+  padding: 20px;
+}
+.contact__form {
+  border: 1px solid #888;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 0 40px 0;
+  background-color: #fff;
+  width: 450px;
+}
+
+.title {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  background-color: #fff;
+  border: px solid #888;
+  padding: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+select {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #888;
+  background-color: transparent;
+  padding: 10px;
+  outline: 1px solid transparent;
 }
+.list {
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between; 
 }
-
-.App-link {
-  color: #61dafb;
+.contct__list {
+  border: 1px solid #888;
+  padding: 40px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 20px 0;
+  background-color: #fff;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list__btns {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 0 20px 10px;
+}
+.list__btn {
+  border-radius: 5px;
+  border: 1px solid #888;
+  background-color: #fff;
+  color: rgb(209, 143, 192);
+  font-size: 22px;
+  font-weight: 500;
+  padding: 10px 16px;
+  width: 140px;
+  height: 50px;
+  margin: 0 10px;
 }
